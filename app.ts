@@ -15,7 +15,7 @@ const timer = function (min: number = 25) {
     timerEl.textContent = new Intl.DateTimeFormat(navigator.language, { minute: "2-digit", second: "2-digit" }).format(seconds * 1000) + " min";
     seconds--;
   };
-
+  countdown();
   const timerId = setInterval(countdown, 1000, min);
 };
 
