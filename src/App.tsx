@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
-const defaultMinutes = 0.2;
+const defaultMinutes = 25;
 const finishSound = new Audio("paiste-gong-75913.mp3");
 finishSound.volume = 0.4;
 
